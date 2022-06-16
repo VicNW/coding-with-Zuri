@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Responsiveness and Media Queries</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="left">
+        <h1 id="big_text">Learn to code by<br> watching others</h1>
+        <p id="small_text">See how experienced developers solve problems in real-time. Watching scripted tutorials is
+          great, but
+          understanding how developers think is invaluable.</p>
+      </div>
+      <div class="right">
+        <div>
+          <p class="top_form"><strong>Try it free 7days </strong>then $20/mo. thereafter</p>
+        </div>
+        <form class="form">
+          <input type="text" placeholder="First Name" data-error="First Name cannot be empty" required>
+         
+          <input type="text" placeholder="Last Name" data-error="Last Name cannot be empty" required>
+          <input type="email" placeholder="Email Address" data-error="Looks like thia ia not an email" required>
+          <input type="password" placeholder="Password" data-error="Passowrd cannot be empty" required>
+          <button>CLAIM YOUR FREE TRIAL</button>
+          <p id="terms">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+        </form>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

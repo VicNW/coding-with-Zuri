@@ -1,2 +1,2 @@
-I code therefore I am.
-These are my projects with Zuri Academy
+I code therefore I exist.
+These are my projects with Zuri Academy.
